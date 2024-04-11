@@ -40,6 +40,7 @@ int main() {
                 enterNumbers(&number1, &number2);
                 result = number1 * number2;
                 printf("%d * %d = %d\n", number1, number2, result);
+                printf("dsadsad");
                 break;
             default:
                 printf("Choose the right option...\n\n");
