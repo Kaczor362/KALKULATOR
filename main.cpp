@@ -36,12 +36,18 @@ int main() {
                 result = number1 + number2;
                 printf("%d + %d = %d\n", number1, number2, result);
                 break;
+            case 3:
+                enterNumbers(&number1, &number2);
+                result = number1 * number2;
+                printf("%d * %d = %d\n", number1, number2, result);
+                printf("dsadsad");
+                break;
+
             case 2:
                 enterNumbers(&number1, &number2);
                 result = number1 - number2;
                 printf("%d - %d = %d\n", number1, number2, result);
                 break;
-
 
             default:
                 printf("Choose the right option...\n\n");
